@@ -1,8 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.container {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 50px;
+}
+.lable{
+  display: flex;
+  justify-content: center;
+}
+.input {
+  padding: 8px 10px;
+  width: 300px;
+  font-size: 18px;
+}
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'PT Sans', sans-serif;
+.hint {
+  margin-left: 20px;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+.success {
+  color: blue;
+  border-color: blue;
 }
